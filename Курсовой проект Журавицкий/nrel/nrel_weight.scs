@@ -34,7 +34,7 @@ nrel_weight <- sc_node_norole_relation;
 
 
 
--> rrel_key_sc_element: ...(*
+<- rrel_key_sc_element: ...(*
 		<- illustration;;
 		=>nrel_main_idtf:
 		    [Рис. (масса*)](*<-lang_ru;;*);
