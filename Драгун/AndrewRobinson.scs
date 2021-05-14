@@ -29,6 +29,8 @@ Andrew_Robinson <-rrel_key_sc_element:...
 	*);;
 *);;
 
+Andrew_Robinson => nrel_main_idtf: [Эндрю Робинсон](*<-lang_ru;;*);;
+Andrew_Robinson => nrel_main_idtf: [Andrew Robinson](*<-lang_en;;*);;
 
 Andrew_Robinson => nrel_place_of_birth : New_York;;
 

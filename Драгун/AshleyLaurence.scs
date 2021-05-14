@@ -29,6 +29,8 @@ Ashley_Laurence <-rrel_key_sc_element:...
 	*);;
 *);;
 
+Andrew_Robinson => nrel_main_idtf: [Эндрю Робинсон](*<-lang_ru;;*);;
+Andrew_Robinson => nrel_main_idtf: [Andrew Robinson](*<-lang_en;;*);;
 
 Ashley_Laurence => nrel_place_of_birth : Los_Angeles;;
 
