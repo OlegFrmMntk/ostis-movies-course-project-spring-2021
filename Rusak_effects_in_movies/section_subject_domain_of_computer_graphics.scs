@@ -11,6 +11,9 @@ section_subject_domain_of_computer_graphics
 	concept_composere;
 	nrel_composere;
 	concept_UV_map;
+	nrel_compositing;
+	concept_match_moving;
+	nrel_match_moving;
 	concept_computer_graphics;;
 
 section_subject_domain_of_computer_graphics = [*^"file://subject_domain_of_computer_graphics.scs"*];;
