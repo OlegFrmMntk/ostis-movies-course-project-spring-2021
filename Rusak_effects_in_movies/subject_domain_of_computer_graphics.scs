@@ -14,11 +14,14 @@ subject_domain_of_computer_graphics
 -> rrel_not_maximum_studied_object_class:
 		concept_compositing;
 		concept_composere;
+		concept_match_moving;
 		concept_UV_map;
 		concept_green_screen;
 
 -> rrel_explored_relation:
 	nrel_composere;
+	nrel_compositing;
+	nrel_match_moving;
 	
 <- subject_domain;;
 
