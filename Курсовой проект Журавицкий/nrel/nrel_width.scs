@@ -34,7 +34,7 @@ nrel_width <- sc_node_norole_relation;
 
 
 
--> rrel_key_sc_element: ...(*
+<- rrel_key_sc_element: ...(*
 		<- illustration;;
 		=>nrel_main_idtf:
 		    [Рис. (ширина*)](*<-lang_ru;;*);

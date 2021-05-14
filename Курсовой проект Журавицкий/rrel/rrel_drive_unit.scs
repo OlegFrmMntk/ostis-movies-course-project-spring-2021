@@ -34,7 +34,7 @@ rrel_drive_unit <- sc_node_role_relation;
 
 
 
--> rrel_key_sc_element: ...(*
+<- rrel_key_sc_element: ...(*
 		<- illustration;;
 		=>nrel_main_idtf:
 		    [Рис. (привод*)](*<-lang_ru;;*);
