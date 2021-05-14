@@ -1,0 +1,31 @@
+concept_computer_graphics <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [computer_graphics](*<- lang_en;;*);
+    [компьютерная графика](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (компьютерная графика)](*<- lang_ru;;*);
+        [Def. (computer_graphics)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_computer_graphics_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_computer_graphics_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (компьютерная графика)](*<-lang_ru;;*);
+		    [Pic. (computer_graphics)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/com.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;
